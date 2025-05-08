@@ -253,9 +253,9 @@ jobs:
           echo "❌ Failed to verify package publication on relays"
           exit 1
 
-      - name: Trigger OS Workflow
-        uses: peter-evans/repository-dispatch@v2
-        with:
-          token: ${{ secrets.REPO_ACCESS_TOKEN }}
-          repository: OpenTollGate/tollgate-os
-          event-type: update-release-json
+      # - name: Trigger OS Workflow
+      #   uses: peter-evans/repository-dispatch@v2
+      #   with:
+      #     token: ${{ secrets.REPO_ACCESS_TOKEN }}
+      #     repository: OpenTollGate/tollgate-os
+      #     event-type: update-release-json
