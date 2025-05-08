@@ -271,7 +271,7 @@ func TestDownloadPackage(t *testing.T) {
 	fourWeeksAgo := currentTime - int64(4*7*24*60*60) // 4 weeks ago in seconds
 
 	relays := []string{"wss://relay.damus.io", "wss://nos.lol", "wss://nostr.mom"}
-	trustedMaintainers := []string{"5075e61f0b048148b60105c1dd72bbeae1957336ae5824087e52efa374f8416a"}
+	trustedMaintainers := []string{"c0757f43081aa96a8733b58fb7f745d8c784ecdfc02477a1b7b99e35416fff0b"}
 
 	customConfig := map[string]interface{}{
 		"relays":              relays,
