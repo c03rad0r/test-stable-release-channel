@@ -49,7 +49,7 @@ type BraggingConfig struct {
 	Fields  []string `json:"fields"`
 }
 
-// Config holds the configuration parameters 
+// Config holds the configuration parameters
 type PackageInfo struct {
 	Version        string
 	Timestamp      int64
