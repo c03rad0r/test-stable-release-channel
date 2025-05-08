@@ -145,5 +145,5 @@ FILES_$(PKG_NAME) += \
 
 $(eval $(call BuildPackage,$(PKG_NAME)))
 
-# Print IPK path after successful compilation
+# Print IPK path after successful compilation 
 PKG_FINISH:=$(shell echo "Successfully built: $(IPK_FILE)" >&2)
