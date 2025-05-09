@@ -409,7 +409,7 @@ func (cm *ConfigManager) EnsureDefaultConfig() (*Config, error) {
 				"trusted_maintainers",
 			},
 			NIP94EventID: "unknown",
-		} // TODO: update the default EventID when we merge to main.
+		} // TODO: update the default EventID when we merge to main. 
 		err = cm.SaveConfig(defaultConfig)
 		if err != nil {
 			return nil, err
