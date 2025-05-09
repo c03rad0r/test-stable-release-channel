@@ -400,7 +400,7 @@ func (cm *ConfigManager) EnsureDefaultConfig() (*Config, error) {
 				"wss://relay.tollgate.me",
 			},
 			TrustedMaintainers: []string{
-				"5075e61f0b048148b60105c1dd72bbeae1957336ae5824087e52efa374f8416a",
+				"c0757f43081aa96a8733b58fb7f745d8c784ecdfc02477a1b7b99e35416fff0b",
 			},
 			FieldsToBeReviewed: []string{
 				"price_per_minute",
