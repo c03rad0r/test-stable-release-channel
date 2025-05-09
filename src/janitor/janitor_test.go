@@ -268,7 +268,7 @@ func TestDownloadPackage(t *testing.T) {
 	defer os.Remove(configFile.Name())
 
 	currentTime := time.Now().Unix()
-	fourWeeksAgo := currentTime - int64(4*7*24*60*60) // 4 weeks ago in seconds
+	fourWeeksAgo := currentTime - int64(4*7*24*60*60) // 4 weeks ago in seconds 
 
 	relays := []string{"wss://relay.damus.io", "wss://nos.lol", "wss://nostr.mom"}
 	trustedMaintainers := []string{"c0757f43081aa96a8733b58fb7f745d8c784ecdfc02477a1b7b99e35416fff0b"}
